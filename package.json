@@ -1,0 +1,19 @@
+{
+  "name": "circuit_breaker",
+  "version": "1.0.0",
+  "description": "fault tollent servers",
+  "main": "build/app.js",
+  "scripts": {
+    "start": "ts-node build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ephraim tlhako",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "ts-node": "^10.6.0"
+  }
+}
